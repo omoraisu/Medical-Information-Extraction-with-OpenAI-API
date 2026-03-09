@@ -1,15 +1,15 @@
-from ie.processing import (
+from processing import (
     load_transcriptions,
     build_user_messages,
     parse_tool_calls,
     save_structured_data,
 )
-from ie.extractor import extract_medical_information
+from extractor import extract_medical_information
 
 
 def run_pipeline(
-    input_path: str = "data/raw/transcriptions.csv",
-    output_path: str = "data/processed/extracted_data.csv",
+    input_path: str = "data/transcriptions.csv",
+    output_path: str = "data/extracted_data.csv",
 ):
     """
     Full pipeline:

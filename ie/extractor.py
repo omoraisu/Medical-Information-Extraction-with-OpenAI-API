@@ -1,6 +1,6 @@
-from ie.config import client, model
-from ie.prompts import system_message
-from ie.schemas import function_definition
+from config import client, model
+from prompts import system_message
+from schemas import function_definition
 
 
 def extract_medical_information(user_messages: list[dict]):

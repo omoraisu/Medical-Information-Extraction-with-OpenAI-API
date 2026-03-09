@@ -1,4 +1,4 @@
-from ie.pipeline import run_pipeline
+from pipeline import run_pipeline
 
 def main():
     df_structured = run_pipeline()
